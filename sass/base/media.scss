@@ -1,0 +1,55 @@
+//for index.html/indexRightMenu.scss
+
+@media screen and(max-width: 812px){
+    .menu-navbar img {
+        width: 3vw;
+    }
+    .menu-navbar li{
+        font-size: max(1.2vw, 10px);
+    }
+    .rightMenuAccecoirs{
+        padding-top: 0.5vw;
+    }
+}
+@media screen and(max-width: 375px){
+    .menu-wrap .rightMenu > div {
+        width: 100%;
+        height: 220vw;
+    }
+    .menu-wrap .toggler {
+        top: 0;
+        left: 0;
+    }
+    .menu-wrap {
+        top: 15%;
+        left: 80%;
+    }
+    .menu-navbar li{
+        padding-top: 10vw;
+
+    }
+    .menu-navbar img {
+        width: 5vw;
+    }
+}
+
+@media screen and(max-width: 414px){
+    .menu-wrap {
+        top: 15%;
+        left: 80%;
+    }
+    .menu-wrap .rightMenu > div {
+        width: 200%;
+        height: 220vw;
+    }
+    .menu-wrap .rightMenu {
+        left: 0;
+    }
+}
+
+//for index.html/indexLeftMenu.scss
+@media screen and(max-width: 414px){
+    .menu img{
+        width: 4vw;
+    }
+}

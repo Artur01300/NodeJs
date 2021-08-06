@@ -1,0 +1,49 @@
+// *************** mainContainter  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+.mainContainer{
+    background: url('.././img/main.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.mainContainter_title, .mainContainter_text{
+    text-align: center;
+
+}
+
+.mainContainter_title{
+    font-size: max(5vw, 20px);
+    padding-top: 0.4em;
+    font-weight: bolder;
+    font-family: 'font_h1_header', sans-serif;
+}
+.mainContainter_text{
+    font-size: max(2vw, 16px);
+    color: #c1c1c1;
+    font-family: 'font_title_text', sans-serif;
+}
+
+.mainContainerBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #0023ff;
+    cursor: pointer;
+    font-family: 'font_blue_btn_title', sans-serif;
+}
+.mainContainerBtn{
+    color: white;
+}

@@ -1,0 +1,34 @@
+
+// **********************        Left Menu
+html{
+    font-size: 16px;
+}
+
+.menu{
+    min-height: 100vh;
+    min-width: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 2vw;
+    }
+
+}
+.menu_logo{
+    padding-top: 2vw;
+}
+.menu_home{
+    padding-top: 5vw;
+}
+
+.menu_home, .menu_shopBasket, .menu_search, .menu_in{
+    cursor: pointer;
+}
+
+.menu_shopBasket, .menu_search{
+    padding-top: 5vw;
+}
+.menu_in{
+    padding-top: 13vw;
+}

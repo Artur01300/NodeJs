@@ -1,0 +1,22 @@
+
+.mainContainer{
+    background-image: url('.././img/mainIPadPro.jpg');
+    max-width: 240vw;
+    max-height: 135vw;
+}
+
+.menu-wrap .rightMenu {
+    left: 38%;
+}
+
+.menu-wrap .rightMenu>div {
+    width: 25vw;
+}
+
+.menu-wrap .rightMenu>div>div>ul {
+    font-size: max(1.2vw, 16px);
+
+}
+.menu-navbar img {
+    width: 3vw;
+}
